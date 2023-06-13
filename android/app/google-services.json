@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "921639292943",
+    "project_id": "edtech-403d9",
+    "storage_bucket": "edtech-403d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921639292943:android:b6a18be132da45c309537a",
+        "android_client_info": {
+          "package_name": "com.example.ed_tech_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921639292943-j4atbt6ep1k79b84efl7l8lqjh59674l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW7-jMC5NcD-CNQXgJ2xsngwOutpFn3NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921639292943-j4atbt6ep1k79b84efl7l8lqjh59674l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "921639292943-or3lj9nu2hf94tqtm7kmq65mh493lmeg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.edTechUi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921639292943:android:2ccb926c8327cd4609537a",
+        "android_client_info": {
+          "package_name": "com.example.pep_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921639292943-j4atbt6ep1k79b84efl7l8lqjh59674l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW7-jMC5NcD-CNQXgJ2xsngwOutpFn3NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921639292943-j4atbt6ep1k79b84efl7l8lqjh59674l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "921639292943-or3lj9nu2hf94tqtm7kmq65mh493lmeg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.edTechUi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
