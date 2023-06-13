@@ -23,7 +23,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     passwordController.dispose();
   }
 
-  void clearFields(){
+  void clearFields() {
     emailController.clear();
     passwordController.clear();
   }
@@ -107,11 +107,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               const SizedBox(height: 12),
               TextButton(
                 onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => const LoginScreen(),
-                    ),
-                  );
+                  Navigator.of(context).pop();
                 },
                 child: const Text(
                   "Login instead",

@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:pep_test/services/authentication_service.dart';
+import 'package:pep_test/ui/authentication/register_screen.dart';
 import 'package:pep_test/widgets/custom_button.dart';
 import 'package:pep_test/widgets/custom_textfield.dart';
 
@@ -106,7 +107,7 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(height: 12),
               TextButton(
                 onPressed: () {
-                  Navigator.of(context).pop();
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => RegisterScreen(),));
                 },
                 child: const Text(
                   "Register instead",
